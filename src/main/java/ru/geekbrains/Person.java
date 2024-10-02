@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.lang.reflect.Type;
 import java.util.Objects;
 
-public class Person implements JsonSerializer, JsonDeserializer {
+public class Person implements JsonSerializer, JsonDeserializer, Serializable {
     private String firstName;
     private String lastName;
     private int age;
